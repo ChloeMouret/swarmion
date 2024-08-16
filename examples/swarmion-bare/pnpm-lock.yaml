@@ -46,7 +46,7 @@ importers:
         version: 9.0.11
       lint-staged:
         specifier: ^15.2.0
-        version: 15.2.8
+        version: 15.2.9
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -2830,8 +2830,8 @@ packages:
     resolution: {integrity: sha512-wM1+Z03eypVAVUCE7QdSqpVIvelbOakn1M0bPDoA4SGWPx3sNDVUiMo3L6To6WWGClB7VyXnhQ4Sn7gxiJbE6A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  lint-staged@15.2.8:
-    resolution: {integrity: sha512-PUWFf2zQzsd9EFU+kM1d7UP+AZDbKFKuj+9JNVTBkhUFhbg4MAt6WfyMMwBfM4lYqd4D2Jwac5iuTu9rVj4zCQ==}
+  lint-staged@15.2.9:
+    resolution: {integrity: sha512-BZAt8Lk3sEnxw7tfxM7jeZlPRuT4M68O0/CwZhhaw6eeWu0Lz5eERE3m386InivXB64fp/mDID452h48tvKlRQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -5169,12 +5169,6 @@ snapshots:
     transitivePeerDependencies:
       - nx
 
-  '@nrwl/devkit@19.2.3(nx@19.2.3)':
-    dependencies:
-      '@nx/devkit': 19.2.3(nx@19.2.3)
-    transitivePeerDependencies:
-      - nx
-
   '@nrwl/js@19.2.3(@babel/traverse@7.25.3)(@types/node@22.1.0)(nx@19.2.2)(typescript@5.4.5)':
     dependencies:
       '@nx/js': 19.2.3(@babel/traverse@7.25.3)(@types/node@22.1.0)(nx@19.2.2)(typescript@5.4.5)
@@ -5231,7 +5225,7 @@ snapshots:
 
   '@nx/devkit@19.2.3(nx@19.2.3)':
     dependencies:
-      '@nrwl/devkit': 19.2.3(nx@19.2.3)
+      '@nrwl/devkit': 19.2.3(nx@19.2.2)
       ejs: 3.1.10
       enquirer: 2.3.6
       ignore: 5.3.1
@@ -7006,7 +7000,7 @@ snapshots:
 
   lines-and-columns@2.0.4: {}
 
-  lint-staged@15.2.8:
+  lint-staged@15.2.9:
     dependencies:
       chalk: 5.3.0
       commander: 12.1.0
