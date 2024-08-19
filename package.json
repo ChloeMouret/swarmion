@@ -43,7 +43,7 @@
     "@commitlint/config-conventional": "^19.0.0",
     "@nx/workspace": "19.2.2",
     "@swarmion/nx-plugin": "workspace:*",
-    "@types/node": "^20.12.4",
+    "@types/node": "^22.1.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "changelogithub": "^0.13.2",
@@ -56,7 +56,7 @@
     "lerna": "^8.0.0",
     "lint-staged": "^15.2.0",
     "nx": "19.2.2",
-    "nx-cloud": "18.0.1",
+    "nx-cloud": "19.0.0",
     "prettier": "^3.1.1",
     "syncpack": "^12.0.0",
     "typescript": "^5.3.3"
@@ -64,7 +64,7 @@
   "engines": {
     "node": "^20.12.1"
   },
-  "packageManager": "pnpm@9.1.4",
+  "packageManager": "pnpm@9.4.0",
   "pnpm": {
     "patchedDependencies": {
       "@codspeed/vitest-plugin@3.1.0": "patches/@codspeed__vitest-plugin@3.1.0.patch"
